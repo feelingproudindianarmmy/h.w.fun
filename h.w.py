@@ -1,12 +1,27 @@
-def add(number):
+def add():
     return 2+4
-def subtraction(number):
+def subtraction():
     return 6-4
-def multiplication(number):
+def multiplication():
     return 7*4
-def divide(number):
-    return 3//7
-print(add(2+4))
-print(subtraction(6-4))
-print(multiplication(7*4))
-print(divide(3//7))
+def divide():
+    return 7//3
+print(add())
+print(subtraction())
+print(multiplication())
+print(divide())
+#argument
+def add(n1,n2):
+    return n1+n2
+def subtraction(n1,n2):
+    return n1-n2
+def multiplication(n1,n2):
+    return n1*n2
+def divide(n1,n2):
+    return n1//n2
+n1=int(input("Enter the number 1"))
+n2=int(input("Enter te number 2"))
+print(add(n1,n2))
+print(subtraction(n1,n2))
+print(multiplication(n1,n2))
+print(divide(n1,n2))
